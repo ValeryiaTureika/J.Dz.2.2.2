@@ -1,8 +1,6 @@
 public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
-        int BodyWeightInKg;
-        int HeightInCentimeters;
 
         int BodyMassIndex = service.calculate(80, 165, 10_000);
         System.out.println("Индекс Массы Тела: " + BodyMassIndex + "кг/м;  " + "Вес: 80 кг;  " + "Рост: 1,65 м");
